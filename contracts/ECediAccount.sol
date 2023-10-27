@@ -1,6 +1,8 @@
+// SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.19;
 
-contract UserAccount {
+contract ECediAccount {
     event Deposit(
         address indexed user,
         uint256 value,
